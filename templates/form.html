@@ -25,13 +25,13 @@
             border-radius: 24px;
             box-shadow: 0 25px 50px -12px rgba(0,0, 0.25);
         }
-        .container {
+        .container{
             background: #ffffff;
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0,1);display:
+            box-shadow: 0 4px 15px rgba(0,0,0,0,1);
             width:100%;
-            max-width: 400px;
+            max-width: 500px;
         }
         /*The master card containing both the title and the form container*/
         .main-wrapper {
@@ -40,6 +40,7 @@
             align-items: center;
             width: 100%;
             max-width: 440px;
+        }
         h2{ 
             text-align: center;
             color: #ffffff; /*Pure white heading*/
@@ -80,16 +81,18 @@
             color: #155724;
             border: 1px solid solid #c3e6cb
         }
-        .error {
-            background-color: #f8d7da
-            color: #721c24;
-            border: 1px solid #f5c6cb
+        .error-message{
+            color: #FFD700 !important; 
+            font-weight: bold;
+            font-size: 1rem;
+            margin-top: 10px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <div class="wrapper">
-      <h2>LOAN ELIGIBILITY CHECK</h2>
+      <h2><center>LOAN ELIGIBILITY CHECK</center></h2>
       <div class="container">
     <form method="POST">
         <div class="form-group">
